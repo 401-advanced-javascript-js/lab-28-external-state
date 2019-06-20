@@ -7,10 +7,10 @@ import Enzyme, { shallow, render, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
 import React from 'react';
-import renderer from 'react-test-renderer';
+// import renderer from 'react-test-renderer';
 
 import Form from '../../../components/form/form';
-import App from '../../../app';
+// import App from '../../../app';
 
 Enzyme.configure({ adapter: new Adapter() });
 
